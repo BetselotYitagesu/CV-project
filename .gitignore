@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+.venv
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+*.env
+
+# PyTorch & dataset cache
+*.pt
+*.pth
+*.ckpt
+*.log
+runs/               # for TensorBoard
+lightning_logs/     # for PyTorch Lightning
+
+# Data files (optional - uncomment if you want to ignore all data)
+# data/
+# *.jpg
+# *.png
+# *.csv
+
+# OS-specific
+.DS_Store
+Thumbs.db
